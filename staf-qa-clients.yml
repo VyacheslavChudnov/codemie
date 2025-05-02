@@ -1,0 +1,425 @@
+qa:
+  clients:
+    - userId: e9fc17a7-268e-42b1-8c90-6adaff030181
+      clientId: oauth-client.epm-bgc.faceId.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-bgc.faceId.service-integration.prod
+      additionalPermissions:
+        - items:
+            - CUSTOM_FIELD:blt0cb57b721afff6ab
+          authority: BF_SE_EDIT-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt23bd5bbbe90b54ae
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt393ede1b12d1e3cd
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt6d24813bfd4094e1
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+    - userId: 6bd26631-3dc7-4319-8b5d-8f710cc7629f
+      clientId: oauth-client.epm-bgc.screening.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-bgc.screening.service-integration.prod
+      additionalPermissions:
+        - items:
+            - CUSTOM_FIELD:blt23bd5bbbe90b54ae
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt393ede1b12d1e3cd
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt6d24813bfd4094e1
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+    - userId: f1200f05-760b-41e7-bb42-54042f8f7b8a
+      clientId: oauth-client.epm-ctm.grabli.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-ctm.grabli.service-integration.prod
+    - userId: b6768c6a-1161-4188-aca6-2e83628932c9
+      clientId: oauth-client.epm-e3s.telescope.service-integration.stag
+      copyPermissionsFrom: oauth-client.epm-e3s.telescope.service-integration.prod
+    - userId: 1ee62aa2-989c-4ba8-b99a-8f915ac4bf8b
+      clientId: oauth-client.epm-eee.emma.stage
+      additionalPermissions:
+        - authority: BF_SE_BPM-GLOBAL-DECLINE-PROPOSAL
+        - authority: BF_SE_LOGIN_TO_SDT
+        - authority: BF_SE_PRESELECT-EMPLOYEE
+        - authority: BF_SE_PROPOSE-EMPLOYEE
+        - authority: BF_SE_VIEW-PROPOSAL
+    - userId: a573c965-bf15-44d8-8243-d5657f2c503b
+      clientId: oauth-client.epm-esmc.servicenow.integration.hrms
+      additionalPermissions:
+        - authority: BF_SE_LOGIN_TO_SDT
+        - authority: BF_SE_UPDATE-POSITION
+        - authority: BF_SE_UPDATE_POSITION_DATES_AND_WORKLOAD
+        - authority: BF_SE_VIEW-POSITION
+    - userId: 0f2cd77b-465e-4ee7-a3c6-1213209ba37e
+      clientId: oauth-client.epm-evnt.cqa.events.service-integration.stag
+      copyPermissionsFrom: oauth-client.epm-evnt.community.service-integration.prod
+    - userId: 4432e3b7-230f-49ab-9b32-13ebf65f5dc3
+      clientId: oauth-client.epm-hire.interview.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-hire.interview.service-integration.prod
+    - userId: 78867b12-c327-4f1e-bef7-3fca96258c8b
+      clientId: oauth-client.epm-hrms.process.service-integration.int
+      copyPermissionsFrom: oauth-client.epm-hrms.process.service-integration.prod
+    - userId: 035d70d2-e51e-4204-a376-9a995d465b52
+      clientId: oauth-client.epm-isdp.attachments-tracker-applicants-processor.stage
+      copyPermissionsFrom: oauth-client.epm-isdp.attachments-tracker-applicants-processor.prod
+    - userId: 9af530dc-68f6-42f6-8635-9c4a5461f030
+      clientId: oauth-client.epm-isdp.onboarding.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-isdp.onboarding.service-integration.prod
+    - userId: 393d56e5-e579-4d03-aef8-675facb332de
+      clientId: oauth-client.epm-isdp.rules-engine.auto-offering.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-isdp.rules-engine.auto-offering.service-integration.prod
+    - userId: 3232f013-c056-4368-b855-6c49c9548c32
+      clientId: oauth-client.epm-isdp.rules-engine.resource-guru.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-isdp.resource-guru.service-integration.prod
+      displayName: RG Booking Engine
+    - userId: 28a0771d-aa7c-4455-bff3-8ece6b6f5f5c
+      clientId: oauth-client.epm-isdp.rules-engine11.stage
+      copyPermissionsFrom: oauth-client.epm-isdp.rules-engine.service-integration.prod
+    - userId: 2708935a-ae2e-4cc8-8b75-c1c58104d9bc
+      clientId: oauth-client.epm-mtch.autostaffing.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-mtch.autostaffing.service-integration.prod
+    - userId: 46a75e3f-0228-4866-b0fa-950ae440570c
+      clientId: oauth-client.epm-orp.opportunities.stage
+      copyPermissionsFrom: oauth-client.epm-orp.opportunities.prod
+      additionalPermissions:
+        - authority: BF_SE_PRESELECT-EMPLOYEE
+        - authority: BF_SE_PROPOSE-EMPLOYEE
+    - userId: 6b0486de-7fd8-4492-951e-3cc1b9fec3ac
+      clientId: oauth-client.epm-plx.anywhere-app-to-app-integration.stage
+      copyPermissionsFrom: oauth-client.epm-plx.anywhere-app-to-app-integration.prod
+    - userId: 2f530547-e2c8-49f5-9f8f-29a97ca59472
+      clientId: oauth-client.epm-plx.anywhere-e2e.service-integration.stage
+      additionalPermissions:
+        - authority: BF_SE_APPROVE-HIRING-CONTAINER
+        - authority: BF_SE_APPROVE-OFFER
+        - authority: BF_SE_BPM-GLOBAL-PRESCREENINGPROCESS
+        - authority: BF_SE_CANCEL-PRESCREENING
+        - authority: BF_SE_COMPLETE-PRESCREENING
+        - authority: BF_SE_CREATE-APPLICANT
+        - authority: BF_SE_CREATE-HIRING-CONTAINER
+        - authority: BF_SE_CREATE-OFFER
+        - authority: BF_SE_CREATE-POSITION
+        - authority: BF_SE_CREATE-REQUISITION
+        - authority: BF_SE_BPM-GLOBAL-REJECT-HIRING-LINK
+        - authority: BF_SE_BPM-GLOBAL-CANCEL-HIRING-LINK
+        - authority: BF_SE_LOGIN_TO_SDT
+        - authority: BF_SE_MARK-OFFER-AS-MADE
+        - authority: BF_SE_PRESCREENING
+        - authority: BF_SE_PRESELECT_APPLICANT_FOR_POOL_CONTAINER
+        - authority: BF_SE_PRESELECT_APPLICANT_FOR_REQUISITION
+        - authority: BF_SE_REQUISITION-START-HIRING
+        - authority: BF_SE_SUBMIT-HIRING-CONTAINER
+        - authority: BF_SE_SUBMIT-OFFER
+        - authority: BF_SE_UPDATE-APPLICANT
+        - authority: BF_SE_UPDATE-HIRING-CONTAINER
+        - authority: BF_SE_UPDATE-HIRING-LINK
+        - authority: BF_SE_UPDATE-OFFER
+        - authority: BF_SE_UPDATE-REQUISITION
+        - authority: BF_SE_UPDATE-REQUISITION-LOCATION
+        - authority: BF_SE_UPDATE-REQUISITION-RESTRICTED-FIELDS
+        - authority: BF_SE_UPDATE-WORKLOAD
+        - authority: BF_SE_UPDATE_OFFER_START_DATE_FIELDS
+        - authority: BF_SE_VIEW-APPLICANT
+        - authority: BF_SE_VIEW-APPLICANT-CONTACTS
+        - authority: BF_SE_VIEW-HIRING-CONTAINER
+        - authority: BF_SE_VIEW-OFFER
+        - authority: BF_SE_VIEW-OFFER-HIRING-COMPLIANCE
+        - authority: BF_SE_VIEW-POSITION
+        - authority: BF_SE_VIEW-REQUISITION
+        - authority: BF_SE_VIEW_HIRING_LINK
+        - items:
+            - COMMENT_PARENT_TYPE:Applicant
+          authority: BF_SE_VIEW-COMMENT
+        - items:
+            - NOT:POOL_CONTAINER_TYPE:Admission
+          authority: BF_SE_UPDATE-HIRING-LINK
+        - items:
+            - NOT:POOL_CONTAINER_TYPE:Admission
+          authority: BF_SE_VIEW_HIRING_LINK
+    - userId: 936ef5c2-9d1b-4c2d-a580-1d389a30d046
+      clientId: oauth-client.epm-plx.demand.integration.stage
+      copyPermissionsFrom: oauth-client.epm-plx.demand.service-integration.prod
+    - userId: 56e46e49-5bd7-407e-a357-f92a36bf3a34
+      clientId: oauth-client.epm-plx.external_sourcing.stage
+      copyPermissionsFrom: oauth-client.epm-plx.external_sourcing.prod
+    - userId: 6555d343-555a-41d3-8266-65fbf4cbd895
+      clientId: oauth-client.epm-plx.hiring_manager.dev
+      copyPermissionsFrom: oauth-client.epm-plx.hiring-manager-workspace.prod
+    - clientId: oauth-client.epm-plx.preboarding.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-plx.preboarding.service-integration.prod
+    - userId: f7694656-bd4e-4d8f-941d-c0d7730afc92
+      clientId: oauth-client.epm-plx.prescreening.stage
+      additionalPermissions:
+        - authority: BF_RUN_ON_BEHALF_USER
+        - authority: BF_SE_BPM-GLOBAL-CANCEL-HIRING-LINK
+        - authority: BF_SE_BPM-GLOBAL-CANCEL-PROPOSAL
+        - authority: BF_SE_BPM-GLOBAL-CLOSE-OFFER
+        - authority: BF_SE_BPM-GLOBAL-DECLINE-PROPOSAL
+        - authority: BF_SE_BPM-GLOBAL-ONHOLD-HIRING-LINK
+        - authority: BF_SE_BPM-GLOBAL-PRESCREENINGPROCESS
+        - authority: BF_SE_BPM-GLOBAL-REJECT-HIRING-LINK
+        - authority: BF_SE_BPM-GLOBAL-REJECT-PROPOSAL
+        - authority: BF_SE_BPM-GLOBAL-UPDATEOFFERACCEPTANCESTATUSPROCESS
+        - authority: BF_SE_CANCEL-OFFER
+        - authority: BF_SE_CANCEL-PRESCREENING
+        - authority: BF_SE_COMPLETE-PRESCREENING
+        - authority: BF_SE_CREATE-APPLICANT
+        - authority: BF_SE_CREATE-APPLICANT-PROPOSAL
+        - authority: BF_SE_CREATE-ATTACHMENT
+        - authority: BF_SE_CREATE-COMMENT
+        - authority: BF_SE_CREATE-COMMENT-TA-TEAM
+        - authority: BF_SE_CREATE-COMMUNICATION-LOGGING
+        - authority: BF_SE_CREATE-OFFER
+        - authority: BF_SE_CREATE-POOL-CONTAINER
+        - authority: BF_SE_CREATE-PROPOSAL-NEXT-STEP-ACTION
+        - authority: BF_SE_CREATE-REQUISITION
+        - authority: BF_SE_DELETE-COMMENT
+        - authority: BF_SE_HIRING-MANAGER-REVIEW-LINK
+        - authority: BF_SE_INITIATE-CONTACT
+        - authority: BF_SE_LOGIN_TO_SDT
+        - authority: BF_SE_MARK-AS-NOT-DUPLICATE
+        - authority: BF_SE_MERGE-APPLICANT
+        - authority: BF_SE_OFFER-PREPARATION-LINK
+        - authority: BF_SE_ON-HOLD-HIRING-LINK
+        - authority: BF_SE_PRE-CHECK
+        - authority: BF_SE_PRESCREENING
+        - authority: BF_SE_PRESELECT_APPLICANT_FOR_POOL_CONTAINER
+        - authority: BF_SE_PRESELECT_APPLICANT_FOR_REQUISITION
+        - authority: BF_SE_PROCESSED-HIRING-LINK
+        - authority: BF_SE_PROPOSE-ANYWHERE-CANDIDATE
+        - authority: BF_SE_PROPOSE-APPLICANT
+        - authority: BF_SE_READY-FOR-PROCESSING-HIRING-LINK
+        - authority: BF_SE_RESUME_REVIEW_APPLICANT_FOR_POOL_CONTAINER
+        - authority: BF_SE_RESUME_REVIEW_APPLICANT_FOR_REQUISITION
+        - authority: BF_SE_RETURN-TO-PRESELECT-FROM-PROPOSED-APPLICANT
+        - authority: BF_SE_RETURN-TO-PRESELECT-FROM-SHORTLISTED
+        - authority: BF_SE_SHORTLIST
+        - authority: BF_SE_UPDATE-APPLICANT
+        - authority: BF_SE_UPDATE-COMMENT
+        - authority: BF_SE_UPDATE_CUSTOM_OFFER_TITLE
+        - authority: BF_SE_UPDATE_OFFER_APPROVERS_FIELDS
+        - authority: BF_SE_VIEW-APPLICANT
+        - authority: BF_SE_VIEW-APPLICANT-BIRTH_DATE
+        - authority: BF_SE_VIEW-APPLICANT-CONTACTS
+        - authority: BF_SE_VIEW-APPLICANT-EDUCATION-HISTORY
+        - authority: BF_SE_VIEW-APPLICANT-EMPLOYMENT-HISTORY
+        - authority: BF_SE_VIEW-APPLICANT-PAN
+        - authority: BF_SE_VIEW-APPLICANT-PERSONALIZED-LINK
+        - authority: BF_SE_VIEW-APPLICANT-REFERENCE
+        - authority: BF_SE_VIEW-APPLICANT-SOCIAL-PROFILES
+        - authority: BF_SE_VIEW-APPLICANT-VISAS
+        - authority: BF_SE_VIEW-ATTACHMENT
+        - authority: BF_SE_VIEW-COMMENT
+        - authority: BF_SE_VIEW-POOL-CONTAINER
+        - authority: BF_SE_VIEW-POSITION
+        - authority: BF_SE_VIEW-PROPOSAL
+        - authority: BF_SE_VIEW-REQUISITION
+        - authority: BF_SE_VIEW-SALARY-EXPECTATIONS
+        - authority: BF_SE_VIEW-SELF-ID-CARD-ISSUE
+        - authority: BF_UPDATE-APPLICANT-TAGS
+        - authority: BF_UPDATE-DICTIONARY
+        - authority: BF_VIEW-DICTIONARY
+        - items:
+            - CUSTOM_FIELD:blta947fe8253195741
+          authority: BF_SE_EDIT-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blta947fe8253195741
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blte2c059730fc8bc71
+          authority: BF_SE_EDIT-CUSTOM-FIELD
+        - items:
+            - NOT:POOL_CONTAINER_TYPE:Admission
+          authority: BF_SE_UPDATE-HIRING-LINK
+        - items:
+            - NOT:POOL_CONTAINER_TYPE:Admission
+          authority: BF_SE_VIEW_HIRING_LINK
+        - items:
+            - OFFER_DOMAIN:Hiring
+          authority: BF_SE_UPDATE-OFFER
+        - items:
+            - OFFER_DOMAIN:Hiring
+          authority: BF_SE_UPDATE-OFFER-AFTER-SUBMISSION
+        - items:
+            - OFFER_DOMAIN:Hiring
+          authority: BF_SE_UPDATE_OFFER_START_DATE_FIELDS
+        - items:
+            - OFFER_DOMAIN:Hiring
+          authority: BF_SE_VIEW-OFFER
+        - items:
+            - INTERVIEW_PARENT_TYPE:Applicant
+            - NOT:EMPLOYEE:CURRENT_USER
+          authority: BF_SE_VIEW-INTERVIEW
+    - userId: d6778aed-1583-4625-9cb7-263208bc5458
+      clientId: oauth-client.epm-plx.recruiter-workspace.stage
+      copyPermissionsFrom: oauth-client.epm-plx.recruiter-workspace.prod
+      additionalPermissions:
+        - authority: BF_SE_CREATE-APPLICANT
+        - authority: BF_SE_CREATE-APPLICANT-PROPOSAL
+        - authority: BF_SE_CREATE-POOL-CONTAINER
+        - authority: BF_SE_CREATE-REQUISITION
+        - authority: BF_SE_UPDATE-COMMUNICATION-LOGGING
+        - authority: BF_SE_UPDATE-COMMUNICATION-LOGGING-COMMENT
+        - authority: BF_SE_VIEW-COMMUNICATION-LOGGING
+        - authority: BF_SE_VIEW-COMMUNICATION-LOGGING-COMMENT
+        - authority: BF_SE_VIEW-POOL-CONTAINER
+        - authority: BF_SE_VIEW-POSITION
+        - authority: BF_SE_VIEW-REQUISITION
+    - userId: 32bc4a76-4bdc-4a81-bc55-155d533900e3
+      clientId: oauth-client.epm-plx.ta-desk-poc.stage
+      copyPermissionsFrom: oauth-client.epm-plx.ta-desk
+      additionalPermissions:
+        - authority: BF_SE_CREATE-APPLICANT
+        - authority: BF_SE_CREATE-APPLICANT-PROPOSAL
+        - authority: BF_SE_CREATE-POOL-CONTAINER
+        - authority: BF_SE_CREATE-REQUISITION
+        - authority: BF_SE_VIEW-POOL-CONTAINER
+        - authority: BF_SE_VIEW-POSITION
+        - authority: BF_SE_VIEW-REQUISITION
+    - userId: 1ecdbcd7-37a1-4d0b-b214-2b32d6a91a18
+      clientId: oauth-client.epm-plx.tad-integration.stage
+      copyPermissionsFrom: oauth-client.epm-plx.tad-integration.prod
+      additionalPermissions:
+        - authority: BF_SE_CREATE-APPLICANT-PROPOSAL
+        - authority: BF_SE_CREATE-POOL-CONTAINER
+        - authority: BF_SE_CREATE-REQUISITION
+        - authority: BF_SE_UPDATE-POSITION
+        - authority: BF_SE_VIEW-POOL-CONTAINER
+        - authority: BF_SE_VIEW-POSITION
+        - authority: BF_SE_VIEW-REQUISITION
+    - userId: 2e3b286b-faa0-4958-b26d-1b0acb0b580d
+      clientId: oauth-client.epm-prj.staffing-desk.stage
+      copyPermissionsFrom: oauth-client.epm-prj.staffing-desk.service-integration.prod
+    - clientId: oauth-client.epm-rdpt.rdportal.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-rdpt.rdportal.service-integration.prod
+    - userId: b8032abe-9392-4595-b04a-e72bba033bd8
+      clientId: oauth-client.epm-ref.invite-portal.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-ref.invite-portal.service-integration.prod
+    - userId: fb62290b-8334-485b-9636-941ffcf0a5cd
+      clientId: oauth-client.epm-ref.ref-portal.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-plx.ref-engine.service-integration.prod
+      additionalPermissions:
+        - authority: BF_ALL_USERS_MEMBER
+    - userId: 29369aa1-db71-4a9e-abab-86943fc5dac3
+      clientId: oauth-client.epm-skls.scoring-pipeline.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-skls.scoring-pipeline.service-integration.prod
+    - userId: 6fea616a-7366-4d4a-a94f-7b00a18c7d6e
+      clientId: oauth-client.epm-srdr.radar.service-integration.dev
+    - userId: 023783ee-db20-4bfe-bba6-32e2558ad188
+      clientId: oauth-client.epm-srdr.radar.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-srdr.radar.service-integration.prod
+    - userId: 150546f8-3394-4ce9-b517-45abc6030d2d
+      clientId: oauth-client.epm-srdr.staffing-radar-development
+      copyPermissionsFrom: oauth-client.epm-srdr.staffing-radar
+    - userId: 01558979-f897-4411-88b1-4bb1dd6b8fc7
+      clientId: oauth-client.epm-srdr.staffing-radar-localhost
+      copyPermissionsFrom: oauth-client.epm-srdr.staffing-radar
+    - userId: 05990b69-e731-46fc-a9e4-22e646c13172
+      clientId: oauth-client.epm-srdr.staffing-radar-qa-epc
+      copyPermissionsFrom: oauth-client.epm-srdr.staffing-radar
+    - userId: def2191b-4f70-4341-91f5-4c32c42d081f
+      clientId: oauth-client.epm-staf.copilot.stage
+      copyPermissionsFrom: oauth-client.epm-staf.copilot.production
+      additionalPermissions:
+        - authority: BF_SE_UPDATE-APPLICANT
+        - authority: BF_SE_VIEW-ATTACHMENT
+    - userId: 34042f0e-0ef2-4ea5-abb6-9b0e6bda0f5f
+      clientId: oauth-client.epm-staf.staffing-desk.crm-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.crm-integration.service-integration.prod
+    - userId: 2f89daa7-4da1-4dab-b4c4-ae30f48c522d
+      clientId: oauth-client.epm-staf.staffing-desk.docs-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.docs-integration.service-integration.prod
+    - userId: ea6a7dab-fb86-4edc-8802-ba0788700e75
+      clientId: oauth-client.epm-staf.staffing-desk.interview-integration1.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.interview-integration1.service-integration.prod
+    - userId: 9a775f95-9c03-48fa-97de-cd43c5487388
+      clientId: oauth-client.epm-staf.staffing-desk.interview-integration2.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.interview-integration2.service-integration.prod
+    - userId: e19b9167-f593-4a88-903f-5fb3fb4f236f
+      clientId: oauth-client.epm-staf.staffing-desk.interview-integration3.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.interview-integration3.service-integration.prod
+    - userId: 19a9d113-fe3e-42f0-84d0-550d61a5b0c6
+      clientId: oauth-client.epm-staf.staffing-desk.interview-integration4.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.interview-integration4.service-integration.prod
+    - userId: ff666504-579a-47e2-839b-6dc2657d1294
+      clientId: oauth-client.epm-staf.staffing-desk.interview-integration5.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.interview-integration5.service-integration.prod
+    - userId: ded4f6e6-e4b5-4ec5-b7cf-5b62bb6f6f53
+      clientId: oauth-client.epm-staf.staffing-desk.interview-integration6.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.interview-integration6.service-integration.prod
+    - userId: 1f008a16-12dc-4ae5-a95b-65409a563ad1
+      clientId: oauth-client.epm-staf.staffing-desk.learn-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.learn-integration.service-integration.prod
+    - userId: 2a74ac98-0b33-4df3-a6af-6594bd2bfb29
+      clientId: oauth-client.epm-staf.staffing-desk.opportunity-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.opportunity-integration.service-integration.prod
+    - userId: 4e4cda25-6743-47bb-a1bd-ee01e7fde496
+      clientId: oauth-client.epm-staf.staffing-desk.people-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.people-integration.service-integration.prod
+    - userId: a4c88421-933b-4141-ac34-b655939266eb
+      clientId: oauth-client.epm-staf.staffing-desk.radar-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.radar-integration.service-integration.prod
+    - userId: 8f424914-e1d7-4c2c-9f6c-caee63e93939
+      clientId: oauth-client.epm-staf.staffing-desk.staf-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.staf-integration.service-integration.prod
+    - userId: 4e7b093c-5799-4ed2-8b1f-e89191c7bffc
+      clientId: oauth-client.epm-staf.staffing-desk.teams-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.teams-integration.service-integration.prod
+    - userId: 27a4e0a3-198e-4ffa-b1aa-7aecc5c9adce
+      clientId: oauth-client.epm-staf.staffing-desk.time-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.time-integration.service-integration.prod
+    - userId: 9f446959-7d88-4b18-a003-4e540e317a97
+      clientId: oauth-client.epm-staf.staffing-desk.unified-profile-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.unified-profile-integration.service-integration.prod
+    - userId: c1dee893-e22e-42ff-aeb5-666905a89f4b
+      clientId: oauth-client.epm-taat.ta-automation.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-taat.ta-automation.service-integration.prod
+    - userId: fb00609f-6762-47df-9835-39f79ce70cee
+      clientId: oauth-client.epm-tcrm.epm-tcrm.service-integration.staging
+      additionalPermissions:
+        - authority: BF_SE_LOGIN_TO_SDT
+        - authority: BF_SE_UPDATE-CONTAINER
+        - authority: BF_SE_VIEW-CONTAINER
+    - userId: 3978e29f-4943-4e73-8174-7ed3e4dce84e
+      clientId: oauth-client.epm-trm.apply.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-trm.apply.service-integration.prod
+    - userId: 0445802b-6215-4763-94b0-b490e9782152
+      clientId: oauth-client.epm-trm.apply.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-trm.apply.service-integration.prod
+    - userId: aa6f87fd-39e5-41f4-8bcc-42e8fe98bfb2
+      clientId: oauth-client.epm-trm.rsci.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-trm.rsci.service-integration.prod
+      additionalPermissions:
+        - authority: BF_SET_EVENT_TIME
+    - userId: f547ad4e-4a9b-43d5-836e-7f97a41d5b80
+      clientId: oauth-client.epm-upsa.upsa.service-integration.int
+      copyPermissionsFrom: oauth-client.epm-upsa.upsa.service-integration.prod
+    - userId: d9b7e3bb-61f5-46b0-8496-c2fb7be3a967
+      clientId: oauth-client.epm-web.epam-com.stage
+      copyPermissionsFrom: oauth-client.epm-web.epam-com.service-integration.prod
+    - userId: d2ae453f-2cc9-44d2-a8dc-3f0e560632f7
+      clientId: oauth-client.epm-ais.autoint.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-ais.autoint.service-integration.prod
+    - userId: b2d4663a-1c3e-48fc-8699-641beb6c2432
+      clientId: oauth-client.epmu-we3.google-dashboard.integration.hrms
+    - clientId: oauth-client.epm-dce.teamsdc.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-dce.teams-delivery-central.service-integration.prod
+      displayName: Teams DC
+    - userId: bc5e11d1-bcbe-4667-b13f-cf666ef15e71
+      clientId: oauth-client.epm-staf.staffing-desk.projects-integration.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-staf.staffing-desk.projects-integration.service-integration.prod
+    - userId: 320a7c78-043b-482b-a150-641c70eeb848
+      clientId: oauth-client.epm-hrms.people.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-hrms.people.service-integration.prod
+    - userId: 862a0c57-8a4e-4544-875f-e2b2fd327ae7
+      clientId: oauth-client.epm-hrms.people.service-integration.int
+      copyPermissionsFrom: oauth-client.epm-hrms.people.service-integration.prod
+    - userId: d6778aed-1583-4625-9cb7-263208bc5458
+      clientId: oauth-client.epm-plx.recruiter-workspace.stage
+      copyPermissionsFrom: oauth-client.epm-plx.recruiter-workspace.prod
+    - clientId: oauth-client.epm-asmd.assessment.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-asmd.assessment.service-integration.prod
+    - clientId: oauth-client.epm-hrms.anpr.service-integration.int
+      copyPermissionsFrom: oauth-client.epm-hrms.anpr.service-integration.prod
+    - clientId: oauth-client.epm-hrms.anpr.service-integration.dev
+      copyPermissionsFrom: oauth-client.epm-hrms.anpr.service-integration.prod
