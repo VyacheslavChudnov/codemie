@@ -1,0 +1,11 @@
+users:
+- active: false
+  email: user1@example.com
+  id: 1
+  name: user1
+  role: user
+- active: true
+  email: user2@example.com
+  id: 2
+  name: user2
+  role: user
