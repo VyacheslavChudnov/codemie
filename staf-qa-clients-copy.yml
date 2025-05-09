@@ -1,0 +1,18 @@
+qa:
+  clients:
+    - userId: e9fc17a7-268e-42b1-8c90-6adaff030181
+      clientId: oauth-client.epm-bgc.faceId.service-integration.stage
+      copyPermissionsFrom: oauth-client.epm-bgc.faceId.service-integration.prod
+      additionalPermissions:
+        - items:
+            - CUSTOM_FIELD:blt0cb57b721afff6ab
+          authority: BF_SE_EDIT-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt23bd5bbbe90b54ae
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt393ede1b12d1e3cd
+          authority: BF_SE_VIEW-CUSTOM-FIELD
+        - items:
+            - CUSTOM_FIELD:blt6d24813bfd4094e1
+          authority: BF_SE_VIEW-CUSTOM-FIELD
